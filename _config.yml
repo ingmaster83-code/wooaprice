@@ -1,0 +1,30 @@
+title: 우아착한가격 - 전국 착한가격업소 찾기
+description: >-
+  전국 12,645곳의 착한가격업소(음식점·이미용업·세탁업 등)를 지역별로 검색하세요.
+  대표 메뉴와 가격까지 한눈에 확인할 수 있습니다.
+url: "https://wooaprice.wooahouse.com"
+baseurl: ""
+lang: ko
+timezone: Asia/Seoul
+author: WooaHouse
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - scripts/
+  - "*.py"
+  - "*.log"
+  - "*.txt"
+  - README.md
+  - .gitignore
+  - vendor/
+  - _rawdata/
